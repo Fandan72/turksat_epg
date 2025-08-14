@@ -1,273 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="Turksat XMLTV (Erkut)">
+<tv generator-info-name="Türksat Test EPG">
 
-  <!-- =============== ULUSAL =============== -->
-  <channel id="trt1.com.tr">
-    <display-name lang="tr">TRT 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/29/TRT1_logo.png"/>
+  <!-- TRT 1 -->
+  <channel id="TRT 1">
+    <display-name>TRT 1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/7/77/TRT1_logosu.png"/>
   </channel>
-  <channel id="trt2.com.tr">
-    <display-name lang="tr">TRT 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1f/TRT_2_logo.png"/>
-  </channel>
-  <channel id="trthaber.com">
-    <display-name lang="tr">TRT Haber</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b8/TRT_Haber_logo.png"/>
-  </channel>
-  <channel id="trtspor.com">
-    <display-name lang="tr">TRT Spor</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ee/TRT_Spor_logo.png"/>
-  </channel>
-  <channel id="trtbelgesel.com">
-    <display-name lang="tr">TRT Belgesel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/0/0a/TRT_Belgesel_logo.png"/>
-  </channel>
-  <channel id="trtcocuk.com">
-    <display-name lang="tr">TRT Çocuk</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/b/b8/TRT_Children_Logo.png"/>
-  </channel>
-
-  <channel id="atv.com.tr">
-    <display-name lang="tr">ATV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/0/0d/Atv_logo.png"/>
-  </channel>
-  <channel id="showtv.com.tr">
-    <display-name lang="tr">Show TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/8/87/Show_TV_logo.png"/>
-  </channel>
-  <channel id="kanald.com.tr">
-    <display-name lang="tr">Kanal D</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/b/bf/Kanal_D_logo.png"/>
-  </channel>
-  <channel id="startv.com.tr">
-    <display-name lang="tr">Star TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/2/20/Star_TV_logo.png"/>
-  </channel>
-  <channel id="nowtv.com.tr">
-    <display-name lang="tr">NOW TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Now_TV_T%C3%BCrkiye_logo.png"/>
-  </channel>
-  <channel id="tv8.com.tr">
-    <display-name lang="tr">TV8</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/1/16/TV8_logo.png"/>
-  </channel>
-  <channel id="kanal7.com">
-    <display-name lang="tr">Kanal 7</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/3/3a/Kanal_7_logo.png"/>
-  </channel>
-  <channel id="beyaztv.com.tr">
-    <display-name lang="tr">Beyaz TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/2/2a/Beyaz_TV_logo.png"/>
-  </channel>
-  <channel id="360.com.tr">
-    <display-name lang="tr">360 TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3b/360_TV_logo.png"/>
-  </channel>
-
-  <!-- =============== HABER =============== -->
-  <channel id="ntv.com.tr">
-    <display-name lang="tr">NTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5b/NTV_logo.png"/>
-  </channel>
-  <channel id="cnnturk.com">
-    <display-name lang="tr">CNN Türk</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/0/08/CNN_T%C3%BCrk_logo.png"/>
-  </channel>
-  <channel id="haberturk.com">
-    <display-name lang="tr">Habertürk TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/4/4b/Haberturk_logo.png"/>
-  </channel>
-  <channel id="a-haber.com.tr">
-    <display-name lang="tr">A Haber</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/1/15/A_Haber_logo.png"/>
-  </channel>
-  <channel id="halktv.com.tr">
-    <display-name lang="tr">Halk TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Halk_TV_logo.png"/>
-  </channel>
-  <channel id="tele1.com.tr">
-    <display-name lang="tr">TELE 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Tele1_logo.png"/>
-  </channel>
-  <channel id="krt.tv.tr">
-    <display-name lang="tr">KRT TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/3/32/KRT_TV_logo.png"/>
-  </channel>
-  <channel id="tv100.com">
-    <display-name lang="tr">tv100</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Tv100_logo.png"/>
-  </channel>
-
-  <!-- =============== SPOR (beIN & diğer) =============== -->
-  <channel id="bein1sports.com.tr">
-    <display-name lang="tr">beIN Sports 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/9f/BeIN_Sports_Logo.png"/>
-  </channel>
-  <channel id="bein2sports.com.tr">
-    <display-name lang="tr">beIN Sports 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/9f/BeIN_Sports_Logo.png"/>
-  </channel>
-  <channel id="bein3sports.com.tr">
-    <display-name lang="tr">beIN Sports 3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/9f/BeIN_Sports_Logo.png"/>
-  </channel>
-  <channel id="bein4sports.com.tr">
-    <display-name lang="tr">beIN Sports 4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/9f/BeIN_Sports_Logo.png"/>
-  </channel>
-  <channel id="beinmax1.com.tr">
-    <display-name lang="tr">beIN Sports MAX 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/9f/BeIN_Sports_Logo.png"/>
-  </channel>
-  <channel id="beinmax2.com.tr">
-    <display-name lang="tr">beIN Sports MAX 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/9f/BeIN_Sports_Logo.png"/>
-  </channel>
-  <channel id="ssport.tv">
-    <display-name lang="tr">S Sport</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/2/26/S_Sport_logo.png"/>
-  </channel>
-  <channel id="ssport2.tv">
-    <display-name lang="tr">S Sport 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/2/26/S_Sport_logo.png"/>
-  </channel>
-
-  <!-- =============== ÇOCUK / BELGESEL / EĞLENCE =============== -->
-  <channel id="minika-go.com.tr">
-    <display-name lang="tr">Minika GO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/e/ed/Minika_Go_logo.png"/>
-  </channel>
-  <channel id="minika-cocuk.com.tr">
-    <display-name lang="tr">Minika Çocuk</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/4/44/Minika_%C3%87ocuk_logo.png"/>
-  </channel>
-  <channel id="cartoonnetwork.com.tr">
-    <display-name lang="tr">Cartoon Network TR</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Cartoon_Network_2010_logo.svg"/>
-  </channel>
-  <channel id="nickelodeon.com.tr">
-    <display-name lang="tr">Nickelodeon TR</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nickelodeon_2009_logo.png"/>
-  </channel>
-
-  <channel id="dmax.com.tr">
-    <display-name lang="tr">DMAX</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1d/DMAX_logo_2018.svg"/>
-  </channel>
-  <channel id="tlc.com.tr">
-    <display-name lang="tr">TLC Türkiye</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/12/TLC_logo_2016.svg"/>
-  </channel>
-  <channel id="natgeo.com.tr">
-    <display-name lang="tr">National Geographic TR</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/6/6b/National-Geographic-Logo.png"/>
-  </channel>
-
-  <!-- ====== ÖRNEK PROGRAMLAR (14 Aug 2025, +0300) - Temel kanallar + beIN ====== -->
-  <!-- ULUSAL -->
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="trt1.com.tr">
-    <title lang="tr">TRT 1 Kuşak 1</title>
-    <desc lang="tr">Test amaçlı EPG kaydı.</desc>
+  <programme start="20250814080000 +0300" stop="20250814093000 +0300" channel="TRT 1">
+    <title lang="tr">Sabah Haberleri</title>
+    <desc lang="tr">Türkiye ve dünyadan gelişmeler.</desc>
   </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="trt1.com.tr">
-    <title lang="tr">TRT 1 Kuşak 2</title>
-    <desc lang="tr">Test amaçlı EPG kaydı.</desc>
+  <programme start="20250814093000 +0300" stop="20250814110000 +0300" channel="TRT 1">
+    <title lang="tr">Doktor Geldi</title>
+    <desc lang="tr">Sağlık programı.</desc>
   </programme>
 
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="trt2.com.tr">
-    <title lang="tr">TRT 2 Belgesel Kuşağı</title>
-    <desc lang="tr">Örnek yayın.</desc>
+  <!-- ATV -->
+  <channel id="ATV">
+    <display-name>ATV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/0/09/Atv_logo_2011.png"/>
+  </channel>
+  <programme start="20250814080000 +0300" stop="20250814093000 +0300" channel="ATV">
+    <title lang="tr">Kahvaltı Haberleri</title>
+    <desc lang="tr">Güncel gelişmeler ve hava durumu.</desc>
   </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="trt2.com.tr">
-    <title lang="tr">TRT 2 Sinema</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="atv.com.tr">
-    <title lang="tr">ATV Kuşak 1</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="atv.com.tr">
-    <title lang="tr">ATV Kuşak 2</title>
-    <desc lang="tr">Örnek yayın.</desc>
+  <programme start="20250814093000 +0300" stop="20250814110000 +0300" channel="ATV">
+    <title lang="tr">Müge Anlı ile Tatlı Sert</title>
+    <desc lang="tr">Gündüz kuşağı programı.</desc>
   </programme>
 
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="showtv.com.tr">
-    <title lang="tr">Show TV Kuşak 1</title>
-    <desc lang="tr">Örnek yayın.</desc>
+  <!-- beIN Sports 1 -->
+  <channel id="beIN Sports 1">
+    <display-name>beIN Sports 1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Bein_sports_logo.png"/>
+  </channel>
+  <programme start="20250814100000 +0300" stop="20250814120000 +0300" channel="beIN Sports 1">
+    <title lang="tr">Canlı Maç</title>
+    <desc lang="tr">Süper Lig karşılaşması.</desc>
   </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="showtv.com.tr">
-    <title lang="tr">Show TV Kuşak 2</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="kanald.com.tr">
-    <title lang="tr">Kanal D Dizi</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="kanald.com.tr">
-    <title lang="tr">Kanal D Sinema</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="startv.com.tr">
-    <title lang="tr">Star TV Kuşak 1</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="startv.com.tr">
-    <title lang="tr">Star TV Kuşak 2</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="nowtv.com.tr">
-    <title lang="tr">NOW TV Kuşak 1</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="nowtv.com.tr">
-    <title lang="tr">NOW TV Kuşak 2</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="tv8.com.tr">
-    <title lang="tr">TV8 Kuşak 1</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="tv8.com.tr">
-    <title lang="tr">TV8 Kuşak 2</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-
-  <!-- HABER -->
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="ntv.com.tr">
-    <title lang="tr">NTV Ana Haber</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="cnnturk.com">
-    <title lang="tr">CNN Türk Gündem</title>
-    <desc lang="tr">Örnek yayın.</desc>
-  </programme>
-
-  <!-- SPOR (beIN) -->
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="bein1sports.com.tr">
-    <title lang="tr">beIN Sports 1 – Maç Önü</title>
-    <desc lang="tr">Stüdyo/analiz (örnek).</desc>
-  </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="bein1sports.com.tr">
-    <title lang="tr">beIN Sports 1 – Canlı Maç</title>
-    <desc lang="tr">Canlı yayın (örnek).</desc>
-  </programme>
-
-  <programme start="20250814190000 +0300" stop="20250814210000 +0300" channel="bein2sports.com.tr">
-    <title lang="tr">beIN Sports 2 – Özetler</title>
-    <desc lang="tr">Maç özetleri (örnek).</desc>
-  </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="bein3sports.com.tr">
-    <title lang="tr">beIN Sports 3 – Basketbol</title>
-    <desc lang="tr">Canlı/özet (örnek).</desc>
-  </programme>
-  <programme start="20250814210000 +0300" stop="20250814230000 +0300" channel="bein4sports.com.tr">
-    <title lang="tr">beIN Sports 4 – Seçkin Karşılaşma</title>
-    <desc lang="tr">Canlı yayın (örnek).</desc>
+  <programme start="20250814120000 +0300" stop="20250814140000 +0300" channel="beIN Sports 1">
+    <title lang="tr">Maç Sonu</title>
+    <desc lang="tr">Analiz ve röportajlar.</desc>
   </programme>
 
 </tv>

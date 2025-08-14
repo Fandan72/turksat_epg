@@ -1,46 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="Türksat Test EPG">
 
-  <!-- TRT 1 -->
-  <channel id="TRT 1">
+  <channel id="TR: TRT 1 FHD">
     <display-name>TRT 1</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/tr/7/77/TRT1_logosu.png"/>
   </channel>
-  <programme start="20250814080000 +0300" stop="20250814093000 +0300" channel="TRT 1">
+
+  <programme start="20250814080000 +0300" stop="20250814093000 +0300" channel="TR: TRT 1 FHD">
     <title lang="tr">Sabah Haberleri</title>
-    <desc lang="tr">Türkiye ve dünyadan gelişmeler.</desc>
+    <desc lang="tr">Türkiye ve dünyadan son gelişmeler.</desc>
   </programme>
-  <programme start="20250814093000 +0300" stop="20250814110000 +0300" channel="TRT 1">
+
+  <programme start="20250814093000 +0300" stop="20250814110000 +0300" channel="TR: TRT 1 FHD">
     <title lang="tr">Doktor Geldi</title>
-    <desc lang="tr">Sağlık programı.</desc>
-  </programme>
-
-  <!-- ATV -->
-  <channel id="ATV">
-    <display-name>ATV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/0/09/Atv_logo_2011.png"/>
-  </channel>
-  <programme start="20250814080000 +0300" stop="20250814093000 +0300" channel="ATV">
-    <title lang="tr">Kahvaltı Haberleri</title>
-    <desc lang="tr">Güncel gelişmeler ve hava durumu.</desc>
-  </programme>
-  <programme start="20250814093000 +0300" stop="20250814110000 +0300" channel="ATV">
-    <title lang="tr">Müge Anlı ile Tatlı Sert</title>
-    <desc lang="tr">Gündüz kuşağı programı.</desc>
-  </programme>
-
-  <!-- beIN Sports 1 -->
-  <channel id="beIN Sports 1">
-    <display-name>beIN Sports 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Bein_sports_logo.png"/>
-  </channel>
-  <programme start="20250814100000 +0300" stop="20250814120000 +0300" channel="beIN Sports 1">
-    <title lang="tr">Canlı Maç</title>
-    <desc lang="tr">Süper Lig karşılaşması.</desc>
-  </programme>
-  <programme start="20250814120000 +0300" stop="20250814140000 +0300" channel="beIN Sports 1">
-    <title lang="tr">Maç Sonu</title>
-    <desc lang="tr">Analiz ve röportajlar.</desc>
+    <desc lang="tr">Sağlık ve yaşam programı.</desc>
   </programme>
 
 </tv>

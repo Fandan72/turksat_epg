@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="Türksat EPG örnek">
+  <!-- TRT 1 -->
+  <channel id="trt1.com.tr">
+    <display-name>TRT 1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7b/TRT1_logo.svg"/>
+  </channel>
+  <programme start="20250814060000 +0300" stop="20250814080000 +0300" channel="trt1.com.tr">
+    <title lang="tr">Sabah Haberleri</title>
+    <desc lang="tr">Türkiye ve dünyadan gelişmeler.</desc>
+  </programme>
+
+  <!-- ATV -->
+  <channel id="atv.com.tr">
+    <display-name>ATV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/0/09/Atv_logo_2011.png"/>
+  </channel>
+  <programme start="20250814060000 +0300" stop="20250814090000 +0300" channel="atv.com.tr">
+    <title lang="tr">Kahvaltı Haberleri</title>
+    <desc lang="tr">Güncel gelişmeler ve hava durumu.</desc>
+  </programme>
+
+  <!-- beIN Sports 1 -->
+  <channel id="bein1sports.com.tr">
+    <display-name>beIN Sports 1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Bein_sports_logo.png"/>
+  </channel>
+  <programme start="20250814100000 +0300" stop="20250814120000 +0300" channel="bein1sports.com.tr">
+    <title lang="tr">Canlı Maç</title>
+    <desc lang="tr">Süper Lig karşılaşması.</desc>
+  </programme>
+</tv>
